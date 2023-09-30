@@ -1,4 +1,4 @@
-Shader"Unlit/GH_RimLight"
+Shader "Unlit/GH_RimLight"
 {
     Properties
     {
@@ -54,7 +54,7 @@ Shader"Unlit/GH_RimLight"
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 //UNITY_TRANSFER_FOG(o,o.vertex);
                 //
-                o.viewDir = normalize(UnityObjectToWorldNormal(v.vertex));
+                o.viewDir = normalize(UnityWorldSpaceViewDir(v.vertex));
                 o.normal = normalize(UnityObjectToWorldNormal(v.normal));
                 return o;
             }
