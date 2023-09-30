@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 74
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 57
+  controlID: 83
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 51
+  controlID: 37
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -332,7 +332,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: rimlight
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -346,7 +346,7 @@ MonoBehaviour:
     m_Folders:
     - Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: rimlight
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
@@ -357,9 +357,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be570000
-    m_LastClickedID: 22462
-    m_ExpandedIDs: 000000009e570000a0570000a2570000a4570000a6570000a8570000b657000000ca9a3b
+    m_SelectedIDs: bc570000
+    m_LastClickedID: 22460
+    m_ExpandedIDs: 000000009e570000a0570000a2570000a4570000a6570000b4570000be57000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e570000a0570000a2570000a4570000a6570000a8570000
+    m_ExpandedIDs: 000000009e570000a0570000a2570000a4570000a6570000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 101.600006}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 149.59998
@@ -517,8 +517,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6c570000
-      m_LastClickedID: 22380
+      m_SelectedIDs: 90010000
+      m_LastClickedID: 0
       m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -942,7 +942,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
       y: 21
       width: 727.8
       height: 376.8
-    m_Scale: {x: 0.4361111, y: 0.4361111}
+    m_Scale: {x: 0.46041662, y: 0.46041664}
     m_Translation: {x: 363.9, y: 188.4}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -963,12 +963,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -834.4204
-      y: -432
-      width: 1668.8408
-      height: 864
+      x: -790.3711
+      y: -409.19458
+      width: 1580.7422
+      height: 818.38916
     m_MinimalGUI: 1
-  m_defaultScale: 0.4361111
+  m_defaultScale: 0.46041664
   m_LastWindowPixelSize: {x: 909.75, y: 497.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
