@@ -1,0 +1,376 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8042 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UNITY 3D\Setup Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UNITY 3D/Projects/Shader/Shader
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60925
+Successfully changed project path to: D:/UNITY 3D/Projects/Shader/Shader
+D:/UNITY 3D/Projects/Shader/Shader
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16528] Host "[IP] 192.168.0.194 [Port] 0 [Flags] 2 [Guid] 552790893 [EditorId] 552790893 [Version] 1048832 [Id] WindowsEditor(7,Th?o-Linh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16528] Host "[IP] 192.168.0.194 [Port] 0 [Flags] 2 [Guid] 552790893 [EditorId] 552790893 [Version] 1048832 [Id] WindowsEditor(7,Th?o-Linh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 187.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path D:/UNITY 3D/Setup Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNITY 3D/Projects/Shader/Shader/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'D:/UNITY 3D/Setup Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY 3D/Setup Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UNITY 3D/Setup Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITY 3D/Setup Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UNITY 3D/Setup Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003501 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1073.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4430ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (4080ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (3638ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (134ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1074ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (1553ms)
+				ProcessInitializeOnLoadMethodAttributes (859ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.087718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UNITY 3D\Projects\Shader\Shader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNITY 3D\Projects\Shader\Shader\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6081ms)
+		BeginReloadAssembly (950ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (3633ms)
+			LoadAssemblies (1127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2458ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3050 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.0 KB). Loaded Objects now: 3510.
+Memory consumption went from 107.7 MB to 107.6 MB.
+Total: 7.029900 ms (FindLiveObjects: 0.976500 ms CreateObjectMapping: 0.740200 ms MarkObjects: 5.107600 ms  DeleteObjects: 0.202600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1045628.021845 seconds.
+  path: Assets/NewUnlitShader.shader
+  artifactKey: Guid(09d72ac94043b9148923daeb2ca6185c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewUnlitShader.shader using Guid(09d72ac94043b9148923daeb2ca6185c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d0e825f7b6288458c46102ff3051a0') in 0.162540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2303.715695 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/Body_Halloween_HumanMale.mat
+  artifactKey: Guid(e0a0a61a812c9b543aff87cee3c5c68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/Body_Halloween_HumanMale.mat using Guid(e0a0a61a812c9b543aff87cee3c5c68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9beb86440330de7d661b81c844df8654') in 1.398825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/HF_Texture_05_BaseColor2.png
+  artifactKey: Guid(fc738f2f9285c7940a72e2b54f385221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/HF_Texture_05_BaseColor2.png using Guid(fc738f2f9285c7940a72e2b54f385221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeab73533419c01ae1204604cf3a6339') in 0.193598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/HM_T_05_BaseColor 2.png
+  artifactKey: Guid(10bafff12ec7438489bb747ca2cd0c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/HM_T_05_BaseColor 2.png using Guid(10bafff12ec7438489bb747ca2cd0c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cb8a41b8e623263d32a6d7cd661707') in 0.026922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/HM_T_05_BaseColor.png
+  artifactKey: Guid(3eb5691ee5f41ac4ca8c13e5e684266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/HM_T_05_BaseColor.png using Guid(3eb5691ee5f41ac4ca8c13e5e684266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dce7112fa349f818b136ba97c6c8b13') in 0.027568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/HM_T_01_BaseColor.png
+  artifactKey: Guid(e74c9ca0c0d334d44a15ff933f6bec86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Characters_Halloween/HM_T_01_BaseColor.png using Guid(e74c9ca0c0d334d44a15ff933f6bec86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fab536e9f4bfa32b96d2e3bb30cf2de') in 0.038379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.538084 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween2.png
+  artifactKey: Guid(b64c7d99994bd18469e4d01a99231bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween2.png using Guid(b64c7d99994bd18469e4d01a99231bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c14ad1456abfb66d339c1783769bbf') in 0.030167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween6.png
+  artifactKey: Guid(99d987d5b006e884d99efef911b25b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween6.png using Guid(99d987d5b006e884d99efef911b25b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc183a4507a7a902a71859e6dc1241e') in 0.027871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween10.png
+  artifactKey: Guid(8c271676f31d8e1468772566a7b12a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween10.png using Guid(8c271676f31d8e1468772566a7b12a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affb88873817426906cfd1360246ce46') in 0.034453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween5.png
+  artifactKey: Guid(388ed9287e777f54092884399b6996c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween5.png using Guid(388ed9287e777f54092884399b6996c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12aea0d29fe7bee5f8e35c39de2c6e2c') in 0.044161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween8.png
+  artifactKey: Guid(f75c9f02e49c09c4fbfe5daa60b287f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween8.png using Guid(f75c9f02e49c09c4fbfe5daa60b287f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd347b0360909d7c8ee2251c181120a16') in 0.028254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween9.png
+  artifactKey: Guid(37a3cafa98644f84998c61d040b1aec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Icons_Halloween/Halloween9.png using Guid(37a3cafa98644f84998c61d040b1aec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205f957bb9cac85dcb6ae3f7dfd93a06') in 0.029511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.881482 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Weapon_Halloween/Bat.mat
+  artifactKey: Guid(371c26ff55f805840afcf669252b3e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Weapon_Halloween/Bat.mat using Guid(371c26ff55f805840afcf669252b3e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6a160bb5c3162372394c518d2fde99') in 0.603207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Weapon_Halloween/Scythe.fbx
+  artifactKey: Guid(da4633da781603648a64ed0858e2642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Weapon_Halloween/Scythe.fbx using Guid(da4633da781603648a64ed0858e2642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602f2d4b9d49aff5540a1926e4564795') in 0.139945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Weapon_Halloween/Blade.mat
+  artifactKey: Guid(881d08056def78a4e8f7a3f5ff5b9604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Weapon_Halloween/Blade.mat using Guid(881d08056def78a4e8f7a3f5ff5b9604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903b28d302a7f406d998fe22b38ed150') in 0.211172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Weapon_Halloween/Bat_BaseColor.png
+  artifactKey: Guid(f9f9471b6722856439a78f75d26449c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Weapon_Halloween/Bat_BaseColor.png using Guid(f9f9471b6722856439a78f75d26449c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50c03ffeab07662a505151e78ec11a9') in 0.031798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.995941 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/DEMO_Halloween2021/DEMO_Halloween2021/ReflectionProbe-0.exr
+  artifactKey: Guid(29b0329fd079e3c41a40aab53fdbc5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/DEMO_Halloween2021/DEMO_Halloween2021/ReflectionProbe-0.exr using Guid(29b0329fd079e3c41a40aab53fdbc5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc2e0ccffa9d283c648e24f9157a277') in 0.061426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.171861 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Candles/Dirt_With_Candles_Emissive.png
+  artifactKey: Guid(99f36b0e37642d444bc8a11d435ab120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Candles/Dirt_With_Candles_Emissive.png using Guid(99f36b0e37642d444bc8a11d435ab120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70064eced5b002fc8eb8a9319d7485db') in 0.035140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Cobwebs/Dirt_With_Cobwebs_BaseColor.png
+  artifactKey: Guid(69b338207627d3441877eff255a563c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Cobwebs/Dirt_With_Cobwebs_BaseColor.png using Guid(69b338207627d3441877eff255a563c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed82bcf7abffc07cfb1c24ebf159928') in 0.034248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Cobwebs/Dirt_With_Cobwebs_AmbientOcclusion.png
+  artifactKey: Guid(5426d66de8cfef54aba4f8e2e0336925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Cobwebs/Dirt_With_Cobwebs_AmbientOcclusion.png using Guid(5426d66de8cfef54aba4f8e2e0336925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215599f29a86315673f4a4add40113e5') in 0.028025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Cobwebs/Dirt_With_Cobwebs.terrainlayer
+  artifactKey: Guid(63f93765ba26b114e97ea9486661a49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Cobwebs/Dirt_With_Cobwebs.terrainlayer using Guid(63f93765ba26b114e97ea9486661a49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccad05d80f87b6c770eff3c45a94bb6') in 0.080410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Candles/Dirt_With_Candles_Roughness.png
+  artifactKey: Guid(bdae990a209ffa745bb2c6686ab705df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Candles/Dirt_With_Candles_Roughness.png using Guid(bdae990a209ffa745bb2c6686ab705df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c833200bb9e6639d216548e92504400') in 0.030539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Candles/Dirt_With_Candles_Height.png
+  artifactKey: Guid(7aacd10a29c758b43b9e9c405a99125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Candles/Dirt_With_Candles_Height.png using Guid(7aacd10a29c758b43b9e9c405a99125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f672f0fced9aba8b371c0030e9007a4c') in 0.031753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Candles/Dirt_With_Candles_Normal.png
+  artifactKey: Guid(9f73a55def6934541a350f227564a156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Candles/Dirt_With_Candles_Normal.png using Guid(9f73a55def6934541a350f227564a156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5e40f42ad1cc75c886704b6e5b0b80') in 0.041313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.948868 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Cobwebs/Dirt_With_Cobwebs_Roughness.png
+  artifactKey: Guid(2fc6cfa58b05353409751b3d59477841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Dirt_With_Cobwebs/Dirt_With_Cobwebs_Roughness.png using Guid(2fc6cfa58b05353409751b3d59477841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf9c3464dd5fcec307d53c4d9e0eebf') in 0.041677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.540985 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Grass_With_Pumpkins/Grass_With_Pumpkins_Emissive.png
+  artifactKey: Guid(5d43c6aa5ccd7fb41ba3bdaa475882b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Grass_With_Pumpkins/Grass_With_Pumpkins_Emissive.png using Guid(5d43c6aa5ccd7fb41ba3bdaa475882b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00467abd330f0b89ef09cf03fd67dea4') in 0.034263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Grass_With_Pumpkins/Grass_With_Pumpkins_Height.png
+  artifactKey: Guid(edf01288a6f7de643b3eb25d8222629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Grass_With_Pumpkins/Grass_With_Pumpkins_Height.png using Guid(edf01288a6f7de643b3eb25d8222629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bee546eecabb95c6bbc9ea76d7d6730') in 0.024254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin/Pumpkin.prefab
+  artifactKey: Guid(035ff0176cf8dc34abd4aa5c6876d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin/Pumpkin.prefab using Guid(035ff0176cf8dc34abd4aa5c6876d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a60ca4f5497831fb3689b5b93985a21') in 0.438631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin/Pumpkin.fbx
+  artifactKey: Guid(8c8f41904c6e18d4496d2746331443a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin/Pumpkin.fbx using Guid(8c8f41904c6e18d4496d2746331443a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a13905a1320775408e7fe234bade23') in 0.048311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.911222 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin/Pumpkin_BaseColor.png
+  artifactKey: Guid(fd7d9e69eb5d7b84ab3cdf45586d64cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin/Pumpkin_BaseColor.png using Guid(fd7d9e69eb5d7b84ab3cdf45586d64cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96545dfbadf5439237abad971c7e6a9d') in 0.041808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.309586 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin/Pumpkin_Normal.png
+  artifactKey: Guid(164e0946faa322840b8ea1f10b439ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Pumpkin/Pumpkin_Normal.png using Guid(164e0946faa322840b8ea1f10b439ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178b6bfc82c096d83a7583fea7b058c6') in 0.035645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1987.664180 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Tree/Tree.fbx
+  artifactKey: Guid(d652e39324506394ead385c9817f588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Props_Halloween/Tree/Tree.fbx using Guid(d652e39324506394ead385c9817f588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746dfb2242ad2d8a276905021f88b80a') in 0.041868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1990.986105 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/refresh.png
+  artifactKey: Guid(6f6a4c6bd7cdc654d9d91f7de72afcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/refresh.png using Guid(6f6a4c6bd7cdc654d9d91f7de72afcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6843ff865f57d624158472e72cc7c94') in 0.077582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1360.549891 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Wood_With_Cobwebs/Wood_With_Cobwebs_BaseColor.png
+  artifactKey: Guid(ad47fa60d8cf68242ab74f793fe6a22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Wood_With_Cobwebs/Wood_With_Cobwebs_BaseColor.png using Guid(ad47fa60d8cf68242ab74f793fe6a22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44a49fb1491397fcd5b0ba1691c4a2c') in 0.088309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Wood_With_Cobwebs/Wood_With_Cobwebs_Height.png
+  artifactKey: Guid(220a8a11e2dc99b40bc083798d4b2c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/ThemedEvents/Halloween/Blink_Halloween_2021/Textures_Halloween/Wood_With_Cobwebs/Wood_With_Cobwebs_Height.png using Guid(220a8a11e2dc99b40bc083798d4b2c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb226d9e2034eb6a0c20523f5510aa4a') in 0.051159 seconds 
